@@ -12,9 +12,6 @@ echo -n "What is Your Name: "
 read -r  AUTHOR
 
 
-
-
-
 npm init -y
 
 sed -i 's/ "author": "",/ "author": "'$AUTHOR'",/' package.json

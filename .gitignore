@@ -1,0 +1,7 @@
+*
+
+!.gitignore
+!server.js
+!readme.md
+!package.json
+!make.sh

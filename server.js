@@ -34,7 +34,7 @@ const server = http.createServer((req,res)=>
         {
             if(err)
             {
-                res.writeHead(200, {"Content-Type": "text/html"});
+                res.writeHead(404, {"Content-Type": "text/html"});
                 res.end();
             }
             else

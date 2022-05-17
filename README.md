@@ -3,7 +3,7 @@
 This Project  Was Written With NodeJS And Give Us A Simple Webserver And Designed in Such a Way that You Can Use It For Your Own Projects.
 
 ## Installation
-
+If You Using Linux Follwing Commands in Your Terminal,If You Using Windows Following Commands  With GitBash Terminal.
 First Clone Project:
 ```bash
 git clone git@github.com:Lo-Agency-Internship/hutan-nodejs-webserver.git

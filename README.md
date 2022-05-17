@@ -14,7 +14,6 @@ Run This Command to Enter Directory:
 ```bash
 cd hutan-nodejs-webserver/
 ```
-
 Just Run This Bash Script:
 ```bash
 ./make.sh
@@ -23,6 +22,13 @@ And Enter Your Name:
 ```bash
 What is Your Name:
 ```
+## NOTE
+If You Need Permition to Run This Script,Switch User To **root** User And Follow Like This:
+```bash
+chmod +x make.sh
+```
+And Execute Script Again
+
 
 ## Result
 In Order that See Result Enter **url** Into Your Browser:

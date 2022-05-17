@@ -15,7 +15,7 @@ read -r  AUTHOR
 npm init -y
 
 sed -i 's/ "author": "",/ "author": "'$AUTHOR'",/' package.json
-sed -i '7i \ \   "start": "node server.js " ,' package.json
+#sed -i '7i \ \   "start": "node server.js " ,' package.json
 
 npm run start
 

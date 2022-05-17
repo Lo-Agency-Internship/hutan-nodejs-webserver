@@ -23,7 +23,7 @@ And Enter Your Name:
 What is Your Name:
 ```
 ## NOTE
-If You Need Permition to Run This Script,Switch User To **root** User And Follow Like This:
+If You Need Permition to Run This Script,Switch To **root** User And Follow Like This:
 ```bash
 chmod +x make.sh
 ```

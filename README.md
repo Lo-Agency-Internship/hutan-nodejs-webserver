@@ -33,7 +33,7 @@ And Execute Script Again
 ```json 
 "start": "node server.js"
  ```` 
- in package.json File.Otherwise You Must Uncomment Line 18 in **make.sh** and Oerwrite Your Javascript Name.Like This:
+ in package.json File.Otherwise You Must Uncomment Line 18 in **make.sh** and Overwrite Your Javascript Name.Like This:
 ```bash
 sed -i '7i \ \   "start": "your-javascript-name.js " ,' package.json
 ```

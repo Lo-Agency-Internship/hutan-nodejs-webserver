@@ -29,7 +29,7 @@ chmod +x make.sh
 ```
 And Execute Script Again
 
-1. If Your npm version is 8.5.5 Or Higher and Your Javascript Name is (( **server.js** )) In This Case npm Append 
+2. If Your npm version is 8.5.5 Or Higher and Your Javascript Name is (( **server.js** )) In This Case npm Append 
 ```json "start": "node server.js 
  ```` 
  in package.json File.Otherwise You Must Uncomment Line 18 in **make.sh** and Oerwrite Your Javascript Name.Like This:

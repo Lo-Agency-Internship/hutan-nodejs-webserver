@@ -29,11 +29,11 @@ chmod +x make.sh
 ```
 And Execute Script Again
 
-2. If Your npm version is 8.5.5 Or Higher and Your Javascript Name is (( **server.js** )) In This Case npm Append Following Line Automatically:
+2. If Your npm version is 8.5.5 Or Higher and Your Javascript Name is (( **server.js** )) In This Case npm Append Following Line Automatically in package.json File:
 ```json 
 "start": "node server.js"
  ```` 
- in package.json File.Otherwise You Must Uncomment Line 18 in **make.sh** and Overwrite Your Javascript Name.Like This:
+Otherwise You Must Uncomment Line 18 in **make.sh** and Overwrite Your Javascript Name.Like This:
 ```bash
 sed -i '7i \ \   "start": "your-javascript-name.js " ,' package.json
 ```

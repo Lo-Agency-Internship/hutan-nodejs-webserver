@@ -23,13 +23,20 @@ And Enter Your Name:
 What is Your Name:
 ```
 ## NOTE
-If You Need Permition to Run This Script,Switch To **root** User And Follow Like This:
+1.If You Need Permition to Run This Script,Switch To **root** User And Follow Like This:
 ```bash
 chmod +x make.sh
 ```
 And Execute Script Again
 
-
+2.If Your npm version is 8.5.5 Or Higher and Your Javascript Name is (( **server.js** )) In This Case npm Append 
+```json "start": "node server.js 
+ ```` 
+ in package.json File.Otherwise You Must Uncomment Line 18 in **make.sh** and Oerwrite Your Javascript Name.Like This:
+```bash
+sed -i '7i \ \   "start": "your-javascript-name.js " ,' package.json
+```
+ 
 ## Result
 In Order that See Result Enter **url** Into Your Browser:
 
